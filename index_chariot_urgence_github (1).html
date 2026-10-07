@@ -1,0 +1,448 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chariot d'urgence — Pôle Gériatrique</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--text:#17202a;--muted:#5d6873;--line:#dfe3e8;--accent:#1769aa;--accent2:#e8f2fb;}
+*{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+header{background:#fff;border-bottom:1px solid var(--line);padding:20px 16px;position:sticky;top:0;z-index:10}
+.wrap{max-width:900px;margin:auto} h1{font-size:24px;margin:0 0 5px} h2{font-size:19px;margin:4px 0 0} .sub{color:var(--muted);font-size:14px}
+.notice{margin:16px auto 10px;max-width:900px;background:#fff8e6;border:1px solid #ead7a0;border-radius:12px;padding:12px 14px;font-size:13px;line-height:1.45}
+.toolbar{max-width:900px;margin:12px auto;padding:0 0 4px} input{width:100%;padding:13px 14px;border:1px solid var(--line);border-radius:10px;font-size:16px;background:#fff}
+nav{max-width:900px;margin:10px auto;display:flex;gap:8px;overflow:auto;padding-bottom:4px} nav a{white-space:nowrap;text-decoration:none;color:var(--accent);background:var(--accent2);border-radius:999px;padding:9px 12px;font-size:13px}
+main{max-width:900px;margin:0 auto;padding:0 0 40px} .drawer-section{background:#fff;border:1px solid var(--line);border-radius:14px;margin:14px 0;overflow:hidden}
+.section-head{padding:15px 16px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:10px;align-items:center} .drawer-number{font-size:12px;color:var(--accent);font-weight:700;text-transform:uppercase;letter-spacing:.04em}
+.count{font-size:12px;color:var(--muted)} .item{border-bottom:1px solid var(--line)} .item:last-child{border-bottom:0}
+.item-head{width:100%;border:0;background:#fff;text-align:left;padding:15px 16px;display:flex;justify-content:space-between;gap:10px;font-size:15px;font-weight:650;color:var(--text);cursor:pointer;min-height:50px}
+.item-head:hover{background:#fafbfc} .chev{color:var(--accent);font-size:18px} .item-body{display:none;padding:0 16px 15px;background:#fbfcfd}
+.item.open .item-body{display:block} .item.open .chev{transform:rotate(45deg)} .field{padding:10px 0;border-bottom:1px solid #edf0f2;line-height:1.45;font-size:14px} .field:last-child{border:0}
+.label{font-size:12px;text-transform:uppercase;letter-spacing:.04em;font-weight:750;color:var(--accent);margin-bottom:3px}
+.top{max-width:900px;margin:14px auto;background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px 16px} .top h2{margin-top:0} .top-item{padding:10px 0;border-bottom:1px solid var(--line);display:flex;flex-direction:column;gap:3px;font-size:14px} .top-item:last-child{border:0}
+footer{max-width:900px;margin:20px auto;padding:0 0 40px;color:var(--muted);font-size:12px;line-height:1.5}
+.hidden{display:none!important} @media(max-width:600px){header{position:static} h1{font-size:21px} main,.toolbar,nav,.top,footer{margin-left:10px;margin-right:10px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><h1>Chariot d’urgence — Pôle Gériatrique</h1><div class="sub">Référentiel interactif — mise à jour du listing : 14/09/2026</div></div></header>
+<div class="notice"><strong>Important :</strong> cette page est un support documentaire construit à partir du listing fourni et de sources médicamenteuses publiques. Les posologies et préparations doivent être validées par le médecin/pharmacien et le protocole d’urgence de l’établissement avant mise en production sur le chariot. Le RCP exact de la spécialité détenue prime lorsqu’une présentation diffère.</div>
+<div class="toolbar"><input id="search" type="search" placeholder="Rechercher un médicament ou un matériel…" aria-label="Rechercher"></div>
+<nav>
+<a href="#plateau">Plateau supérieur</a>
+<a href="#drawer-1">Tiroir 1</a><a href="#drawer-2">Tiroir 2</a><a href="#drawer-3">Tiroir 3</a><a href="#drawer-4">Tiroir 4</a><a href="#drawer-5">Tiroir 5</a>
+</nav>
+<section id="plateau" class="top">
+<h2>Plateau supérieur / extérieur</h2>
+<div class="top-item"><strong>Défibrillateur DSA</strong><span>Électrodes branchées : 1 · électrodes de rechange : 1</span></div><div class="top-item"><strong>Aspirateur bronchique</strong><span>Prise électrique : 1 · récipient : 1 · tubulure : 1 · sondes : 2 · masque O2 : 1</span></div><div class="top-item"><strong>Plan dur</strong><span>Quantité : 1</span></div><div class="top-item"><strong>Bouteille d&#x27;oxygène</strong><span>Pleine et arrimée : 1 · manodétendeur fonctionnel</span></div>
+</section>
+<main>
+
+    <section class="drawer-section" id="drawer-1">
+      <div class="section-head">
+        <div><span class="drawer-number">Tiroir 1</span><h2>Médicaments injectables</h2></div>
+        <span class="count">22 références</span>
+      </div>
+      <div class="items"><article class="item" data-name="acétylsalicylate de lysine — aspegic 500 mg/5 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Acétylsalicylate de lysine — ASPEGIC 500 mg/5 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Médicament du listing; fiche détaillée à valider avec le RCP exact détenu par l’établissement.</div></div><div class="field"><div class="label">Préparation</div><div>À préciser selon indication/protocole local.</div></div><div class="field"><div class="label">Voie</div><div>Selon présentation exacte du produit.</div></div><div class="field"><div class="label">Posologie</div><div>Selon indication/protocole local.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 5</div></div></div>
+    </article><article class="item" data-name="adrénaline 1 mg/1 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Adrénaline 1 mg/1 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Arrêt cardio-vasculaire, choc anaphylactique, détresses cardio-circulatoires.</div></div><div class="field"><div class="label">Préparation</div><div>La préparation dépend de l&#x27;indication et de la voie; utiliser la concentration correspondant au protocole d&#x27;urgence local.</div></div><div class="field"><div class="label">Voie</div><div>IV/IO en arrêt cardiaque; IM pour anaphylaxie selon protocole.</div></div><div class="field"><div class="label">Posologie</div><div>Arrêt cardiaque adulte : 1 mg IV/IO, à répéter toutes les 3–5 min pendant la RCP. Anaphylaxie adulte : 0,5 mg IM (soit 0,5 mL de 1 mg/mL) selon protocole/RCP.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 10</div></div></div>
+    </article><article class="item" data-name="adrénaline anapen 500 µg/0,3 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Adrénaline ANAPEN 500 µg/0,3 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Traitement d&#x27;urgence de l&#x27;anaphylaxie.</div></div><div class="field"><div class="label">Préparation</div><div>Stylo prérempli : 500 µg/0,3 mL.</div></div><div class="field"><div class="label">Voie</div><div>IM, face antérolatérale de la cuisse.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte / sujet &gt; 50 kg : 500 µg (1 stylo); une seconde dose peut être nécessaire selon réponse et protocole.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 2</div></div></div>
+    </article><article class="item" data-name="atropine 1 mg/1 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Atropine 1 mg/1 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Bradycardie symptomatique; certaines indications d&#x27;antidote et situations vagales selon protocole.</div></div><div class="field"><div class="label">Préparation</div><div>Solution injectable 1 mg/mL; généralement utilisée sans dilution pour un bolus IV, selon protocole.</div></div><div class="field"><div class="label">Voie</div><div>IV; autres voies selon indication.</div></div><div class="field"><div class="label">Posologie</div><div>Bradycardie adulte : 0,5 mg IV, répétable toutes les 3–5 min jusqu&#x27;à 3 mg selon protocole d&#x27;urgence.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 4</div></div></div>
+    </article><article class="item" data-name="ceftriaxone 1 g poudre injectable">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Ceftriaxone 1 g poudre injectable</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Infections bactériennes sensibles : notamment pneumonies, méningites, infections urinaires compliquées, intra-abdominales, etc.</div></div><div class="field"><div class="label">Préparation</div><div>Reconstitution différente selon présentation IM ou IV. Vérifier le solvant fourni avec le flacon exact.</div></div><div class="field"><div class="label">Voie</div><div>IV ou IM selon présentation et indication.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte : souvent 1–2 g une fois/jour selon infection; situations sévères jusqu&#x27;à 4 g/j selon RCP. Le schéma exact doit suivre l&#x27;indication et le RCP.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 2</div></div></div>
+    </article><article class="item" data-name="clonazépam — rivotril 1 mg/1 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Clonazépam — RIVOTRIL 1 mg/1 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Traitement d&#x27;urgence de l&#x27;état de mal épileptique.</div></div><div class="field"><div class="label">Préparation</div><div>Prélever 0,25 à 1 mg (0,25 à 1 mL) et diluer avec le contenu de l&#x27;ampoule de solvant de 1 mL; pour perfusion, 1 mg dans au moins 85 mL de soluté compatible.</div></div><div class="field"><div class="label">Voie</div><div>IV très lente; IM possible après dilution.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte : dose initiale généralement 0,5 à 1 mg IV lente selon situation; le RCP impose de débuter à la dose efficace la plus faible. Enfant : 0,25–0,5 mg IV lente selon âge/protocole.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 3</div></div></div>
+    </article><article class="item" data-name="clorazépate — tranxene 20 mg/2 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Clorazépate — TRANXENE 20 mg/2 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Anxiété; prévention/traitement des manifestations du sevrage alcoolique; certaines indications pré-examen.</div></div><div class="field"><div class="label">Préparation</div><div>Lyophilisat à reconstituer avec le solvant fourni selon la présentation.</div></div><div class="field"><div class="label">Voie</div><div>IV ou IM selon RCP.</div></div><div class="field"><div class="label">Posologie</div><div>La posologie est indication-dépendante; utiliser le schéma du RCP et du protocole local plutôt qu&#x27;une dose unique générique.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 1</div></div></div>
+    </article><article class="item" data-name="diazépam — valium 10 mg/2 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Diazépam — VALIUM 10 mg/2 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>État de mal épileptique; crise d&#x27;agitation/angoisse; delirium tremens; autres indications du RCP.</div></div><div class="field"><div class="label">Préparation</div><div>Solution injectable; IV lente, IM ou perfusion selon indication. Ne pas mélanger dans la même seringue avec d&#x27;autres produits.</div></div><div class="field"><div class="label">Voie</div><div>IV lente, IM, perfusion ou rectale selon indication.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte : 0,1–0,2 mg/kg par injection; en pratique 1–2 ampoules IV lente ou IM peuvent être administrées selon indication. État de mal adulte : schéma IV spécifique du RCP.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 1</div></div></div>
+    </article><article class="item" data-name="digoxine 0,50 mg/2 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Digoxine 0,50 mg/2 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Insuffisance cardiaque et certains troubles du rythme cardiaque.</div></div><div class="field"><div class="label">Préparation</div><div>Injection IV; dilution/administration selon RCP de la spécialité exacte.</div></div><div class="field"><div class="label">Voie</div><div>IV.</div></div><div class="field"><div class="label">Posologie</div><div>La dose de charge dépend du poids, de la fonction rénale et de la situation clinique; elle doit être calculée individuellement. Ne pas utiliser une dose fixe sans prescription/protocole.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 2</div></div></div>
+    </article><article class="item" data-name="eau pour préparations injectables 10 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Eau pour préparations injectables 10 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Solvant pour certaines préparations injectables.</div></div><div class="field"><div class="label">Préparation</div><div>Utiliser selon les instructions du médicament à reconstituer.</div></div><div class="field"><div class="label">Voie</div><div>Selon médicament reconstitué.</div></div><div class="field"><div class="label">Posologie</div><div>Pas de posologie propre.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 5</div></div></div>
+    </article><article class="item" data-name="flumazénil 0,5 mg/5 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Flumazénil 0,5 mg/5 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Réversion des effets sédatifs des benzodiazépines; aide au diagnostic différentiel des intoxications selon contexte.</div></div><div class="field"><div class="label">Préparation</div><div>Solution injectable 0,1 mg/mL; administration titrée par petites doses IV.</div></div><div class="field"><div class="label">Voie</div><div>IV.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte : 0,2 mg IV en 15 s; puis 0,1 mg à intervalles rapprochés jusqu&#x27;à effet, dose totale usuelle 1 mg (maximum selon indication/RCP).</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 2</div></div></div>
+    </article><article class="item" data-name="furosémide 20 mg/2 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Furosémide 20 mg/2 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Œdème aigu du poumon/œdèmes nécessitant une diurèse rapide; poussées hypertensives sévères et autres indications du RCP.</div></div><div class="field"><div class="label">Préparation</div><div>Solution injectable 10 mg/mL; IV lente ou perfusion selon situation.</div></div><div class="field"><div class="label">Voie</div><div>IV; IM exceptionnellement.</div></div><div class="field"><div class="label">Posologie</div><div>La dose dépend de l&#x27;indication et du traitement antérieur. En urgence, la dose IV initiale est individualisée; suivre le RCP/protocole local.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 10</div></div></div>
+    </article><article class="item" data-name="glucose 30 % — ampoule 10 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Glucose 30 % — ampoule 10 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Apport glucidique; peut être utilisé dans certaines prises en charge de l&#x27;hypoglycémie selon protocole.</div></div><div class="field"><div class="label">Préparation</div><div>1 ampoule de 10 mL contient 3 g de glucose. Solution hypertonique : voie et mode d&#x27;administration selon protocole.</div></div><div class="field"><div class="label">Voie</div><div>IV selon protocole.</div></div><div class="field"><div class="label">Posologie</div><div>La dose pour l&#x27;hypoglycémie est déterminée selon la glycémie, le poids et le protocole local; ne pas utiliser une dose universelle.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 4</div></div></div>
+    </article><article class="item" data-name="isosorbide dinitrate — risordan 10 mg/10 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Isosorbide dinitrate — RISORDAN 10 mg/10 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Vasodilatateur utilisé notamment dans certaines urgences cardiovasculaires; le RCP exact de la spécialité est à suivre.</div></div><div class="field"><div class="label">Préparation</div><div>Solution injectable 1 mg/mL; administration IV/perfusion selon protocole.</div></div><div class="field"><div class="label">Voie</div><div>IV; la présentation du listing est injectable.</div></div><div class="field"><div class="label">Posologie</div><div>Posologie et débit titrés selon l&#x27;indication et la pression artérielle; suivre le RCP/protocole de l&#x27;établissement.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 5</div></div></div>
+    </article><article class="item" data-name="loxapine — loxapac 50 mg/2 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Loxapine — LOXAPAC 50 mg/2 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>États d&#x27;agitation, d&#x27;agressivité et anxiété associés à certains troubles psychotiques ou de la personnalité.</div></div><div class="field"><div class="label">Préparation</div><div>Solution prête à l&#x27;emploi.</div></div><div class="field"><div class="label">Voie</div><div>IM uniquement.</div></div><div class="field"><div class="label">Posologie</div><div>50–300 mg/j en 2 ou 3 injections selon le RCP; chez le sujet âgé, les doses sont diminuées de moitié.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 5</div></div></div>
+    </article><article class="item" data-name="méthylprednisolone 40 mg">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Méthylprednisolone 40 mg</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Corticothérapie anti-inflammatoire dans les indications du RCP.</div></div><div class="field"><div class="label">Préparation</div><div>Reconstitution selon la présentation exacte. Pour certaines présentations 40 mg : reconstitution avec eau PPI; la quantité de solvant varie selon le fabricant.</div></div><div class="field"><div class="label">Voie</div><div>IV lente/perfusion ou IM selon spécialité.</div></div><div class="field"><div class="label">Posologie</div><div>Dose strictement individualisée selon maladie et poids; suivre le RCP de la spécialité détenue et le protocole local.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 3</div></div></div>
+    </article><article class="item" data-name="midazolam 5 mg/1 ml + dispositif intranasal">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Midazolam 5 mg/1 mL + dispositif intranasal</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Sédation; traitement de certaines crises convulsives selon voie et protocole; autres indications du RCP.</div></div><div class="field"><div class="label">Préparation</div><div>Solution 5 mg/mL. Pour administration intranasale, utiliser le dispositif adapté et le protocole local.</div></div><div class="field"><div class="label">Voie</div><div>IV, IM, intranasale ou autres voies selon indication.</div></div><div class="field"><div class="label">Posologie</div><div>Dose dépendante de l&#x27;indication, de l&#x27;âge, du poids et de la voie. Pour l&#x27;intranasal d&#x27;urgence, suivre le protocole institutionnel spécifique au dispositif.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 5</div></div></div>
+    </article><article class="item" data-name="naloxone — narcan 0,4 mg/1 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Naloxone — NARCAN 0,4 mg/1 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Dépression respiratoire ou intoxication par morphinomimétiques/opioïdes.</div></div><div class="field"><div class="label">Préparation</div><div>Pour titration IV : 1 ampoule (0,4 mg/1 mL) + 9 mL de NaCl 0,9 % = 0,04 mg/mL.</div></div><div class="field"><div class="label">Voie</div><div>IV, IM ou SC selon situation; IV titrée en urgence lorsque possible.</div></div><div class="field"><div class="label">Posologie</div><div>En anesthésie : 1–2 µg/kg IV, titré; des réinjections peuvent être nécessaires. En intoxication, titrer à la restauration d&#x27;une ventilation efficace selon protocole.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 5</div></div></div>
+    </article><article class="item" data-name="paracétamol 1 g/100 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Paracétamol 1 g/100 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Douleur modérée; fièvre, lorsque la voie IV est justifiée.</div></div><div class="field"><div class="label">Préparation</div><div>Solution 10 mg/mL, poche de 100 mL = 1 g.</div></div><div class="field"><div class="label">Voie</div><div>IV en perfusion.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte &gt;50 kg : 1 g par administration, perfusion sur 15 min; intervalle ≥4 h; maximum 4 g/24 h en l&#x27;absence de facteurs de risque, et 3 g/j dans certaines situations à risque selon RCP.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 2</div></div></div>
+    </article><article class="item" data-name="phloroglucinol — spasfon 40 mg/4 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Phloroglucinol — SPASFON 40 mg/4 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Douleurs spasmodiques de l&#x27;intestin, voies biliaires, vessie et utérus.</div></div><div class="field"><div class="label">Préparation</div><div>Solution injectable en ampoule 4 mL.</div></div><div class="field"><div class="label">Voie</div><div>IV ou IM selon RCP; perfusion possible selon présentation.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte : 1 à 2 ampoules par administration; peut être renouvelé selon la réponse et le RCP.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 3</div></div></div>
+    </article><article class="item" data-name="scopolamine — scoburen 20 mg/1 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Scopolamine — SCOBUREN 20 mg/1 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Douleurs digestives/biliaires/gynécologiques; soins palliatifs de l&#x27;occlusion intestinale.</div></div><div class="field"><div class="label">Préparation</div><div>Solution 20 mg/mL; peut être utilisée en perfusion et est compatible avec les solutions habituelles.</div></div><div class="field"><div class="label">Voie</div><div>IV, IM ou SC selon indication.</div></div><div class="field"><div class="label">Posologie</div><div>Adulte : 1 ampoule en perfusion IV pour les douleurs aiguës; renouvellement possible dans la journée par IV, IM ou SC selon RCP. En soins palliatifs, schéma selon prescription/protocole.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 5</div></div></div>
+    </article><article class="item" data-name="urapidil — eupressyl 25 mg/5 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Urapidil — EUPRESSYL 25 mg/5 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Urgence hypertensive avec atteinte viscérale menaçant le pronostic vital; certaines situations péri-opératoires.</div></div><div class="field"><div class="label">Préparation</div><div>Solution 5 mg/mL.</div></div><div class="field"><div class="label">Voie</div><div>IV.</div></div><div class="field"><div class="label">Posologie</div><div>Urgence hypertensive adulte : bolus initial 25 mg (5 mL) IV en 20 s; si insuffisant après 5 min, 25 mg supplémentaires, puis éventuellement 50 mg selon RCP; relais par perfusion titrée.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 2</div></div></div>
+    </article></div>
+    </section>
+    <section class="drawer-section" id="drawer-2">
+      <div class="section-head">
+        <div><span class="drawer-number">Tiroir 2</span><h2>Médicaments / per os</h2></div>
+        <span class="count">2 références</span>
+      </div>
+      <div class="items"><article class="item" data-name="trinitrine — natispray 0,15 mg/pulvérisation">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Trinitrine — NATISPRAY 0,15 mg/pulvérisation</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Traitement symptomatique de certaines douleurs angineuses selon prescription/protocole.</div></div><div class="field"><div class="label">Préparation</div><div>Spray sublingual; 0,15 mg par pulvérisation.</div></div><div class="field"><div class="label">Voie</div><div>Sublinguale.</div></div><div class="field"><div class="label">Posologie</div><div>Selon RCP et protocole : pulvérisation(s) sublinguale(s) avec réévaluation clinique; suivre la prescription locale.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 1</div></div></div>
+    </article><article class="item" data-name="salbutamol — ventoline spray">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Salbutamol — VENTOLINE spray</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Indication</div><div>Bronchospasme/crise d&#x27;asthme et bronchoconstriction réversible.</div></div><div class="field"><div class="label">Préparation</div><div>Aérosol-doseur; utiliser avec chambre d&#x27;inhalation si prévue par le protocole.</div></div><div class="field"><div class="label">Voie</div><div>Inhalée.</div></div><div class="field"><div class="label">Posologie</div><div>La dose dépend de l&#x27;âge et de la gravité; en crise aiguë, suivre le protocole d&#x27;urgence de l&#x27;établissement.</div></div><div class="field"><div class="label">Stock du listing</div><div>Quantité au listing : 1</div></div></div>
+    </article></div>
+    </section>
+    <section class="drawer-section" id="drawer-3">
+      <div class="section-head">
+        <div><span class="drawer-number">Tiroir 3</span><h2>Matériel de perfusion</h2></div>
+        <span class="count">25 références</span>
+      </div>
+      <div class="items"><article class="item" data-name="aiguilles iv 21g vertes">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Aiguilles IV 21G vertes</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 4</div></div></div>
+    </article><article class="item" data-name="aiguilles im 23g bleues">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Aiguilles IM 23G bleues</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 4</div></div></div>
+    </article><article class="item" data-name="aiguilles sc 25g orange">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Aiguilles SC 25G orange</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 4</div></div></div>
+    </article><article class="item" data-name="aiguilles trocarts 18g roses">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Aiguilles trocarts 18G roses</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 4</div></div></div>
+    </article><article class="item" data-name="alcool 70°">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Alcool 70°</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="dakin">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Dakin</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="bistouris">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Bistouris</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 2</div></div></div>
+    </article><article class="item" data-name="bouchons de cathéters">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Bouchons de cathéters</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 3</div></div></div>
+    </article><article class="item" data-name="cathéters 20ga roses">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Cathéters 20GA roses</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 5</div></div></div>
+    </article><article class="item" data-name="cathéters 22ga bleus">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Cathéters 22GA bleus</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 5</div></div></div>
+    </article><article class="item" data-name="perfuseurs 3v">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Perfuseurs 3V</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 3</div></div></div>
+    </article><article class="item" data-name="nacl 0,9 % 500 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>NaCl 0,9 % 500 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="gants jetables m — boîte">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Gants jetables M — boîte</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="gants jetables l — boîte">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Gants jetables L — boîte</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="biseptine 40 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Biseptine 40 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 2</div></div></div>
+    </article><article class="item" data-name="compresses 10 × 10">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Compresses 10 × 10</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 5</div></div></div>
+    </article><article class="item" data-name="opsite flexigrip 10 × 12 cm">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Opsite Flexigrip 10 × 12 cm</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="garrot">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Garrot</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="seringues 1 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Seringues 1 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 2</div></div></div>
+    </article><article class="item" data-name="seringues 2 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Seringues 2 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 2</div></div></div>
+    </article><article class="item" data-name="seringues 5 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Seringues 5 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 3</div></div></div>
+    </article><article class="item" data-name="seringues 10 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Seringues 10 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 3</div></div></div>
+    </article><article class="item" data-name="seringues 20 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Seringues 20 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 3</div></div></div>
+    </article><article class="item" data-name="seringue 60 ml">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Seringue 60 mL</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="collecteur d&#x27;objets piquants/tranchants">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Collecteur d&#x27;objets piquants/tranchants</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article></div>
+    </section>
+    <section class="drawer-section" id="drawer-4">
+      <div class="section-head">
+        <div><span class="drawer-number">Tiroir 4</span><h2>Canules / sondes / petit matériel</h2></div>
+        <span class="count">7 références</span>
+      </div>
+      <div class="items"><article class="item" data-name="abaisse-langues">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Abaisse-langues</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 2</div></div></div>
+    </article><article class="item" data-name="canule de guedel petite — noire">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Canule de Guedel petite — noire</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="canule de guedel moyenne — blanche">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Canule de Guedel moyenne — blanche</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="canule de guedel grande — verte">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Canule de Guedel grande — verte</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="sonde d&#x27;aspiration bronchique">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Sonde d&#x27;aspiration bronchique</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 2</div></div></div>
+    </article><article class="item" data-name="omnifix 10 × 5 — rouleau de bande adhésive">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Omnifix 10 × 5 — rouleau de bande adhésive</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="rasoir usage unique">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Rasoir usage unique</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article></div>
+    </section>
+    <section class="drawer-section" id="drawer-5">
+      <div class="section-head">
+        <div><span class="drawer-number">Tiroir 5</span><h2>Petit matériel / oxygène / surveillance</h2></div>
+        <span class="count">13 références</span>
+      </div>
+      <div class="items"><article class="item" data-name="insufflateur bavu usage unique">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Insufflateur BAVU usage unique</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="laryngoscope — coffret enfant/adulte">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Laryngoscope — coffret enfant/adulte</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="pinces magill">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Pinces Magill</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 2</div></div></div>
+    </article><article class="item" data-name="lunettes o2">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Lunettes O2</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="masque haute concentration o2">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Masque haute concentration O2</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="prolongateur o2">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Prolongateur O2</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="raccord biconique du prolongateur">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Raccord biconique du prolongateur</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="lecteur glycémie">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Lecteur glycémie</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="bandelettes glycémie">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Bandelettes glycémie</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="lancettes">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Lancettes</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="oxymètre o2">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Oxymètre O2</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="stéthoscope">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Stéthoscope</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article><article class="item" data-name="tensiomètre">
+      <button class="item-head" type="button" aria-expanded="false">
+        <span>Tensiomètre</span><span class="chev">＋</span>
+      </button>
+      <div class="item-body"><div class="field"><div class="label">Stock du listing</div><div>Quantité : 1</div></div></div>
+    </article></div>
+    </section>
+</main>
+<footer>
+Sources médicamenteuses principales : Base de Données Publique des Médicaments / ANSM, RCP des spécialités ou génériques correspondants. 
+Cette page ne remplace ni prescription, ni protocole local, ni RCP de la spécialité réellement détenue.
+</footer>
+<script>
+const root=document;
+document.querySelectorAll('.item-head').forEach(btn=>{
+  btn.addEventListener('click',()=>{
+    const card=btn.parentElement;
+    const open=card.classList.toggle('open');
+    btn.setAttribute('aria-expanded',open?'true':'false');
+  });
+});
+document.getElementById('search').addEventListener('input',e=>{
+  const q=e.target.value.trim().toLowerCase();
+  document.querySelectorAll('.item').forEach(card=>{
+    const ok=!q || card.dataset.name.includes(q);
+    card.classList.toggle('hidden',!ok);
+  });
+  document.querySelectorAll('.drawer-section').forEach(sec=>{
+    const visible=[...sec.querySelectorAll('.item')].some(x=>!x.classList.contains('hidden'));
+    sec.classList.toggle('hidden',!visible);
+  });
+});
+</script>
+</body>
+</html>
